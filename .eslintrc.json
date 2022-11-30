@@ -1,4 +1,8 @@
 {
+    "eslint.format.enable": true,
+    "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+    }, 
     "env": {
         "es2021": true,
         "node": true

@@ -23,6 +23,9 @@ const port: string | number = process.env.PORT || 8000;
 // From this point onover: http://localhost:8000/api/...
 server.use("/api", rootRouter);
 
+// Static Server
+server.use(express.static('public'))
+
 // TODO: Moongose Connection
 
 // Security Config
